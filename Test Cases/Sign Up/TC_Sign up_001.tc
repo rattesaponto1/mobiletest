@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Sign up_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebc44477-a6e7-4edf-8a8d-6317e4410dae</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>41f6afc7-dfb7-47a1-886d-cf17a0b14c67</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b498c0dd-e6c3-454b-8332-b97e59e91ce6</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8938616-1d72-4095-8f90-0a373bd1947d</id>
+      <masked>false</masked>
+      <name>pass1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bc556780-3d0e-48fb-9143-d530b050f3b8</id>
+      <masked>false</masked>
+      <name>pass2</name>
+   </variable>
+</TestCaseEntity>

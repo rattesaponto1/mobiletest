@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>mobile ecommerce</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>6686efc2-c00d-4114-8b3e-6a363161c728</testSuiteGuid>
+   <testCaseLink>
+      <guid>97883d78-3152-49f8-8b80-e994c22808bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sign Up/TC_Sign up_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3fe1c04b-ac65-4e4d-be82-f05041218298</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/sign up ecommerce</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3fe1c04b-ac65-4e4d-be82-f05041218298</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nama</value>
+         <variableId>41f6afc7-dfb7-47a1-886d-cf17a0b14c67</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b498c0dd-e6c3-454b-8332-b97e59e91ce6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c8938616-1d72-4095-8f90-0a373bd1947d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bc556780-3d0e-48fb-9143-d530b050f3b8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
