@@ -50,4 +50,100 @@
          <variableId>bc556780-3d0e-48fb-9143-d530b050f3b8</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>3ce19e0e-597f-49da-af7d-28a2bbd73b25</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC_Login_001</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>bb6ebe89-f95c-4689-a916-0da4a1955275</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/login ecommerce</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>bb6ebe89-f95c-4689-a916-0da4a1955275</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>2067ae7a-531d-4fea-ab27-e18852adb85d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bb6ebe89-f95c-4689-a916-0da4a1955275</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pass1</value>
+         <variableId>95fd0f99-e40b-46a2-9bd6-e8a0dbfc5104</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>bb6ebe89-f95c-4689-a916-0da4a1955275</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>resendemail</value>
+         <variableId>a5225049-a078-49b4-b4fd-b0602ee46610</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0f9ac6b2-a98f-436f-938e-6775216c4d6c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shopping/TC_handphone</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6dae2b80-1497-403f-9d61-5e9b22882e69</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/electronics handphone</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6dae2b80-1497-403f-9d61-5e9b22882e69</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>handphone</value>
+         <variableId>31bef562-af8f-47be-85e8-22620c55be03</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7bcf6352-42a6-45fa-af93-3ea8f946bb32</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shopping/TC_Cloth</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>76284d78-2051-4b9e-8f0c-434c34eb77d9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/cloth</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>76284d78-2051-4b9e-8f0c-434c34eb77d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>baju</value>
+         <variableId>b78cc69e-6fdd-4aac-8c3e-6f7b631ebc03</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b92e2bb2-1f25-48d7-86f3-7e73f025b833</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Shopping/TC_Sofa</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6a6f30bc-46c4-4d2f-b9aa-6a3a7b005c11</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/furniture sofa</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6a6f30bc-46c4-4d2f-b9aa-6a3a7b005c11</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sofa</value>
+         <variableId>edcbe0e4-dec4-40a8-92d8-6770473c5b79</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

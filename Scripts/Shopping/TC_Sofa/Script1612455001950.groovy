@@ -14,21 +14,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\Owner\\Downloads\\Ecommerce Store Demo_v1.4 (1).apk', true)
+Mobile.tap(findTestObject('Object Repository/Wishlist/furniture/android.widget.TextView - SKIP LOGIN'), 0)
 
-Mobile.setText(findTestObject('Login/email'), email, 0)
+Mobile.tap(findTestObject('Object Repository/Wishlist/furniture/android.widget.ImageView'), 0)
 
-Mobile.setText(findTestObject('Login/pass'), pass1, 0)
 
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button - SIGN IN'), 0)
+switch (sofa.toString()) {
+	
+	case '1':
+	
+		Mobile.tap(findTestObject('Wishlist/furniture/sofa satu'), 0)
+	
+		break
+		
+		
+	case '2':
+	
+		Mobile.tap(findTestObject('Object Repository/Wishlist/furniture/sofa dua'), 0)
+		
+		break
+		
+		
+	case '3':
+	
+		Mobile.tap(findTestObject('Object Repository/Wishlist/furniture/sofa tiga'), 0)
+		
+		break
+	
+}
 
-Mobile.setText(findTestObject('Login/resend email'), resendemail, 0)
-
-Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button - RE-SEND EMAIL'), 0)
-
-Mobile.tap(findTestObject('Login/LOGIN'), 0)
-
-Mobile.closeApplication()
-
+Mobile.tap(findTestObject('Wishlist/furniture/wishlist'), 0)

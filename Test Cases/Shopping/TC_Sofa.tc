@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Sofa</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0e09fff-1a62-49f3-97a4-45a5643ed37a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>edcbe0e4-dec4-40a8-92d8-6770473c5b79</id>
+      <masked>false</masked>
+      <name>sofa</name>
+   </variable>
+</TestCaseEntity>

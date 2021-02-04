@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Cloth</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a34c8ca-5dc1-4dd0-9a21-d13d52717d5b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b78cc69e-6fdd-4aac-8c3e-6f7b631ebc03</id>
+      <masked>false</masked>
+      <name>baju</name>
+   </variable>
+</TestCaseEntity>

@@ -22,7 +22,27 @@ Mobile.tap(findTestObject('Object Repository/Wishlist/electronics/android.widget
 
 Mobile.tap(findTestObject('Wishlist/electronics/electronics'), 0)
 
-Mobile.tap(findTestObject('Wishlist/electronics/iphone xr'), 0)
+switch (handphone.toString()) {
+	
+	case 'iphone' :
+	
+	Mobile.tap(findTestObject('Object Repository/Wishlist/electronics/iphone xr'))
+	
+		break
+		
+		
+	case 'xiomay':
+	
+	Mobile.tap(findTestObject('Object Repository/Wishlist/electronics/xiomay'))
+	
+		break
+		
+		
+	case 'oppo meneh':
+	
+	Mobile.tap(findTestObject('Object Repository/Wishlist/electronics/oppo'))
+		break
+}
 
 Mobile.tap(findTestObject('Wishlist/electronics/wishlist'), 0)
 

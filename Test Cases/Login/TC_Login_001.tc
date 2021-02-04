@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>2190a493-c70e-412b-92b9-cd354c3c0631</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2067ae7a-531d-4fea-ab27-e18852adb85d</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>95fd0f99-e40b-46a2-9bd6-e8a0dbfc5104</id>
+      <masked>false</masked>
+      <name>pass1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5225049-a078-49b4-b4fd-b0602ee46610</id>
+      <masked>false</masked>
+      <name>resendemail</name>
+   </variable>
 </TestCaseEntity>
